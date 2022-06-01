@@ -13,6 +13,9 @@ bot.start(ctx => ctx.reply("Welcome"));
 bot.hears("hello", ctx => {
   ctx.reply("Hello to you too!");
 });
+bot.hears("damn", ctx => {
+  ctx.reply("Please do not curse me :(");
+});
 
 bot.launch();
 
